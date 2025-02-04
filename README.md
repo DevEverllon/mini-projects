@@ -11,6 +11,7 @@ Cada projeto possui um objetivo específico e pode ser acessado online para test
 Um formulário de cadastro interativo com validação de campos.
 
 ### 📌 [Finance](https://deveverllon.github.io/mini-projects/easy-form/finance/)
+Cria uma lista e verifica se um cliente está ou não em débito
 
 ### 📌 [nav-tabs: Navegação por Abas](https://deveverllon.github.io/mini-projects/easy-form/nav-tabs/)
 Uma interface de navegação dinâmica usando abas para exibir conteúdos diferentes.
