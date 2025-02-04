@@ -10,16 +10,16 @@ Cada projeto possui um objetivo específico e pode ser acessado online para test
 ### 📌 [easy-form: Formulário de Registro](https://deveverllon.github.io/mini-projects/easy-form/)
 Um formulário de cadastro interativo com validação de campos.
 
-### 📌 [Finance](https://deveverllon.github.io/mini-projects/easy-form/finance/)
+### 📌 [Finance](https://deveverllon.github.io/mini-projects/finance/)
 Cria uma lista e verifica se um cliente está ou não em débito
 
-### 📌 [nav-tabs: Navegação por Abas](https://deveverllon.github.io/mini-projects/easy-form/nav-tabs/)
+### 📌 [nav-tabs: Navegação por Abas](https://deveverllon.github.io/mini-projects/nav-tabs/)
 Uma interface de navegação dinâmica usando abas para exibir conteúdos diferentes.
 
-### 📌 [secure-pass: Gerador de Senha](https://deveverllon.github.io/mini-projects/easy-form/secure-pass/)
+### 📌 [secure-pass: Gerador de Senha](https://deveverllon.github.io/mini-projects/secure-pass/)
 Uma ferramenta para gerar senhas aleatórias personalizadas.
 
-### 📌 [task-master: Projeto Lista de Tarefas](https://deveverllon.github.io/mini-projects/easy-form/task-master/)
+### 📌 [task-master: Projeto Lista de Tarefas](https://deveverllon.github.io/mini-projects/task-master/)
 Uma lista de tarefas simples com funcionalidades de adicionar e remover itens.
 
 
