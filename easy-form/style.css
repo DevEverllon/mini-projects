@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #191b22;
+  color: #fff;
+}
+
+.btn-default {
+  background-color: #1a8aed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  height: fit-content;
+  transition: background-color 0.3s ease;
+}
+
+.btn-default:hover {
+  background-color: #1a8bedc6;
+}
+
+#form-conteiner {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  height: 100%;
+  background-color: #282a37;
+  padding: 20px;
+  border-radius: 18px;
+}
+
+#form_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#form_title {
+  color: #c8c8c8;
+  font-weight: 500;
+  position: relative;
+}
+
+#form_title::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  border-radius: 30px;
+  background-color: #1a8aed;
+  left: 0;
+  bottom: 0;
+}
+
+#form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 32px;
+  height: 100%;
+}
+
+#input_conteiner {
+  display: grid;
+  gap: 24px;
+}
+
+.form-label {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  background-color: #333645;
+  border-radius: 8px;
+}
+
+.input-field i {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 20px;
+  color: #afafbb;
+}
+
+/* Estilizando o ícone do calendário no input de data */
+.form-control::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(0.5); /* Deixa o ícone mais suave */
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.form-control::-webkit-calendar-picker-indicator:hover {
+  opacity: 1;
+}
+
+.form-control {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+}
+
+.input-field .password-icon:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.form-control:focus {
+  outline: none;
+}
+
+.input-box .form-control:focus {
+  outline: 2px solid #1a8aed;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset !important;
+  color: #000;
+}
+
+.radio-conteiner {
+  grid-column: span 2;
+}
+
+#gender-input {
+  display: flex;
+  gap: 20px;
+}
+
+.radio-box {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.form-control[type="radio"] {
+  accent-color: #1a8aed;
+}
+
+@media screen and (max-width: 500px) {
+  #form-conteiner {
+    width: 100%;
+    min-height: 100vh;
+    padding: 32px;
+    border-radius: 0px;
+  }
+
+  #input_conteiner{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+}

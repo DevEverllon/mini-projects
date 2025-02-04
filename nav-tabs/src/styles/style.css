@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #292d34;
+}
+
+#conteiner {
+  max-width: 600px;
+  background-color: #e6e6e6;
+  padding: 25px;
+  border-radius: 35px;
+  box-shadow: 0px 10px 15px -3px rgb(0, 0, 0, 0.1);
+}
+
+.tab-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: 15px 0px;
+  background-color: #b7b4ff;
+  border-radius: 20px;
+}
+
+.tab-btn {
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 4px 12px;
+  font-size: 1rem;
+  background-color: transparent;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.tab-btn.active {
+  background-color: #6c63ff;
+}
+
+.content {
+  display: none;
+}
+
+.content.show {
+  display: flex;
+  gap: 20px;
+  background-color: #918bff;
+  border-radius: 8px;
+}
+
+.content-img {
+  width: 50%;
+  height: 250px;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.infos {
+  h1 {
+    color: #292d34;
+  }
+
+  p {
+    color: #fff;
+  }
+}
+
+/* TELAS PEQUENAS */
+@media (max-width: 768px) {
+  #conteiner {
+    max-width: 90%;
+    padding: 15px;
+  }
+  .tab-btn {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+  }
+  .content {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .content-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+}
+
+/* TELAS MINÚSCULAS */
+@media (max-width: 373px) {
+  .tab-buttons {
+    flex-wrap: wrap;
+  }
+}
+
