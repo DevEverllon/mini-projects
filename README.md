@@ -9,7 +9,7 @@ Cada projeto possui um objetivo específico e pode ser acessado online para test
 
 ## 📂 Lista de Projetos
 
-### 📌 [Formulário de Registro](https://seu-link-aqui.com/form-register)
+### 📌 [Formulário de Registro](https://deveverllon.github.io/mini-projects/easy-form/)
 Um formulário de cadastro interativo com validação de campos.
 
 ### 📌 [Navegação por Abas](https://seu-link-aqui.com/tab-navigation)
